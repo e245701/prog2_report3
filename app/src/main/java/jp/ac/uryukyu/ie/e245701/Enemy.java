@@ -9,19 +9,37 @@ package jp.ac.uryukyu.ie.e245701;
  * Created by tnal on 2016/11/13.
  */
 public class Enemy {
+    /**
+     * 名前(モンスター名)
+     */
     private String name;
+    /**
+     * HP(モンスターのHP)
+     */
     private int hitPoint;
+    /**
+     * 攻撃力(モンスターの攻撃力)
+     */
     private int attack;
+    /**
+     * 死亡判定(trueで死亡)
+     */
     private boolean dead;
-
+    /*
+     * アクセサ。nameを取得
+     */
     public String getName() {
         return name;
     }
-
+    /*
+     * アクセサ。hitpointを取得
+     */
     public int getHitpoint() {
         return hitPoint;
     }
-
+    /*
+     * アクセサ。deadを取得
+     */
     public boolean getDead() {
         return dead;
     }

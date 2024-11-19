@@ -13,15 +13,21 @@ public class Hero {
     private int hitPoint;
     private int attack;
     private boolean dead;
-
+     /*
+     * アクセサ。hitpointを取得
+     */
     public String getName() {
         return name;
     }
-
+    /*
+     * アクセサ。hitpointを取得
+     */
     public int getHitpoint() {
         return hitPoint;
     }
-
+    /*
+     * アクセサ。deadを取得
+     */
     public boolean getDead() {
         return dead;
     }
